@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details - Online Auction</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <h2>Online Auction</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="products.html">Auctions</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Product Details -->
+
+    <section class="product-details">
+
+        <!-- Product Image -->
+
+        <div class="details-image">
+            💻
+        </div>
+
+
+        <!-- Product Information -->
+
+        <div class="details-info">
+
+            <h1>Gaming Laptop</h1>
+
+            <p class="description">
+                High performance gaming laptop with powerful
+                processor, dedicated graphics and 16GB RAM.
+            </p>
+
+            <div class="price-box">
+
+                <p>
+                    Starting Price:
+                    <strong>₹45,000</strong>
+                </p>
+
+                <p>
+                    Current Highest Bid:
+                    <strong class="highest-bid">
+                        ₹48,000
+                    </strong>
+                </p>
+
+            </div>
+
+
+            <div class="auction-time">
+
+                <h3>⏳ Auction Ends In</h3>
+
+                <p>05 : 20 : 15</p>
+
+            </div>
+
+
+            <!-- Bidding -->
+
+            <div class="bid-box">
+
+                <h2>Place Your Bid</h2>
+
+                <p>
+                    Your bid must be higher than
+                    ₹48,000
+                </p>
+
+                <input
+                    type="number"
+                    id="bidAmount"
+                    placeholder="Enter your bid amount"
+                >
+
+                <button onclick="placeBid()">
+                    Place Bid
+                </button>
+
+                <p id="bidMessage"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 Online Auction System</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
